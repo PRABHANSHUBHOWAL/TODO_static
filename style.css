@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(78, 79, 79);
+    color: rgba(249, 247, 247, 0.932);
+}
+.background{
+    
+    width: 80vw;
+    height: 80vh;
+    padding: 40px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom right, rgb(78, 79, 79) 8%,rgb(28, 27, 27) 8%, rgba(52, 53, 53, 0.705) 8%,rgb(21, 20, 20) 92%, rgb(78, 79, 79)92%);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+.background p{
+    font-size: 30px;
+    padding-bottom: 15px;    
+}
+.input{
+    width: 54%;
+    height: 30%;
+    padding: 20px 4px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(78, 79, 79);
+    border-radius: 5px;
+}
+.text{
+    width: 60%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(134, 123, 123);
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.btn{
+    background-color: rgb(35, 35, 36);
+    width: 40px;
+    height: 25px;
+    border: none;
+    
+    color: white;
+    border-radius: 3px;
+    
+}
+.list{
+    width: 82%;    
+    max-height: 50vmin;
+    color: black;
+    padding: 17px;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: rgb(78, 79, 79);
+    
+}
+.list::-webkit-scrollbar{
+    width: 5px;
+       
+}
+.list::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 2px;
+}
